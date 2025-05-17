@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Arial", helvetica, sans-serif;
+    font-size: 1.6rem;
+    width: 100vw;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #004301, green);
+    padding: 1rem;
+}
+.hero {
+    background: red;
+    padding: 1rem 2rem;
+    background: white;
+    border-radius: 0.5rem;
+    max-width: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.hero h1 {
+    margin: 2rem 0 0 0;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.hero span {
+    color: green;
+}
+#frutas {
+    margin: 0;
+    padding: 0 0 2rem 0;
+    color: green;
+    font-style: italic;
+}
+.hero p {
+    color: gray;
+}
+.hero label {
+    font-weight: bold;
+}
+.hero input {
+    margin-bottom: 2rem;
+    border: 0.2rem solid #aaaaaa;
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 1rem;
+    width: 100%;
+}
+.hero a {
+    color: gray;
+}
+.hero button {
+    background: #97009b;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    margin: 3rem 0;
+    color: white;
+    font-weight: bold;
+}
+.areadev {
+    text-align: center;
+    width: 100%;
+}
+.dev {
+    font-size: 1.3rem;
+}
